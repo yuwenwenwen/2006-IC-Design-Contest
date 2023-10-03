@@ -1,0 +1,15 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 27, 2023 at 20:08:54 CST
+ncverilog
+	triangle.v
+	testfixture.v
+	+access+r
+Recompiling... reason: unable to find module worklib.triangle:v (SIG) <0x3ee944c4>.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Modules w/wo timescales:
+		timescale of worklib.triangle:v = NOTSET
+		timescale of worklib.test:v = 100ps/10ps
+ncelab: *F,CUMSTS: Timescale directive missing on one or more modules.
+ncverilog: *E,ELBERR: Error during elaboration (status 2), exiting.
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 27, 2023 at 20:08:54 CST  (total: 00:00:00)
