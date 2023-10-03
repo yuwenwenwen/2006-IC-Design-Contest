@@ -1,3 +1,7 @@
+請完成一直角三角形(Right-angled triangle)之直角座標轉譯系統(Rendering Engine)。此直角三
+角形之座標轉譯系統，將可於 testbench 所提供的直角三角形的三個頂點座標如(x1,y1)、(x2,y2)與
+(x3,y3)後，轉譯系統將依序完成涵蓋於直角三角形平面內的所有座標點之輸出。
+
 readme.txt :       Readme file.
 
 testfixture.v :     Test bench includes the definition of clock 
